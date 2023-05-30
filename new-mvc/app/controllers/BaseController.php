@@ -26,7 +26,7 @@ class BaseController {
         
         if ($user) {
           
-          echo "Login successful!";
+          echo "Login is so  successful!";
            header('Location: show_posts.php');
         } else {
           echo "Invalid username or password.";
