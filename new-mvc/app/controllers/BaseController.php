@@ -11,7 +11,7 @@ class BaseController {
     protected function render(string $view, array $data = []) {
         extract($data);
         require __DIR__ . '/../../views/layout.php'; 
-        render(,)
+        render(rrrrrr,)
         
 
     }
