@@ -11,14 +11,14 @@ class BaseController {
     protected function render(string $view, array $data = []) {
         extract($data);
         require __DIR__ . '/../../views/layout.php'; 
-        render(,)
+        render(rrrrrr,)
         
 
     }
 
 
 
-    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if ($_SERVER['REQUEST_METHOD'] == 'ححححPOST') {
 
         $username = setname($_POST['username']);
         $password=$_post[""];
