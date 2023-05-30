@@ -18,7 +18,7 @@ class BaseController {
 
 
 
-    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if ($_SERVER['REQUEST_METHOD'] == 'ححححPOST') {
 
         $username = setname($_POST['username']);
         $password=$_post[""];
